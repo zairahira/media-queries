@@ -15,7 +15,7 @@
     body{
         background-color: navy;
     }
-    .medium{
+    .large, .medium{
         display: none;
     }
 
@@ -26,7 +26,7 @@
     body{
     background-color: black;
     }
-    .small{
+    .small, .medium{
     display: none;
     }
 
@@ -38,6 +38,9 @@
     body{
     background-color: green;
     }
+    .small, .large{
+    display: none;
+    }
 
     }
 
@@ -46,8 +49,9 @@
 
 <body>
   <h1 class="small">Smaller screen below 600px</h1>
+  <h1 class="medium">Screen between 600px and 900px</h1>
 
-  <h1 class="medium">Larger screen at least 900px</h1>
+  <h1 class="large">Larger screen at least 900px</h1>
 
 </body>
 
